@@ -5,13 +5,8 @@ table {
 	box-shadow: 0 0 4px #333;
 }
 
-thead{
-	background-color: #ddd; 
-	text-shadow: #fff 1px 3px 1px;
-}
-
 tr {
-	background-color:#61d7a4;
+	background-color:#9400d3;
 }
 
 tr:active {
@@ -20,6 +15,9 @@ tr:active {
 
 tr:hover {
 	background-color: #fff;
+}
+.divider , .divider:hover { /**Överskrider tidigare färgjustering specifikt för att avgränsaren inte skall byta färg. **/
+	background-color: black;
 }
 
 tr {
@@ -30,9 +28,5 @@ tr {
 	-o-transition: background-color 1s;	
 }
 
-.sum td {
-	border-top: 1px solid #000;
-	font-weight: bold;
-	box-shadow: 0 0 4px #333;
-}
+
 
